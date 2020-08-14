@@ -7,7 +7,14 @@ const eleObj = {
 	props:{
 		className:'box',
 		id:'box',
-		children:['hello']
+		children:['hello',{
+	type:'div',
+	props:{
+		className:'box',
+		id:'box',
+		children:['world']
+	}
+}]
 	}
 }
 function render(eleObj,container){
