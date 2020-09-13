@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// 组价定义
+// 组件定义
+
 // 函数定义
 // function Hello(props){
 // 	console.log(arguments)
